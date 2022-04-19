@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--BOOTSTRAP JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti&family=MuseoModerno:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <section id="title">    
+            <nav class="navbar navbar-expand-lg navbar-default navbar-static-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-lg-none" href="index.html"><img src="images/logo.png" width="100" height="50"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="nav">
+                        <div class="container-fluid">
+                            <ul class="navbar-nav d-flex justify-content-around">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <a class="d-none d-lg-block" id="head-img" href="index.html"><img src="images/logo.png" width="100px"
+                                        height="70px"></a>
+                                <!-- <li>
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="btn nav-link navbtn" type="button" data-target="#dialog" data-toggle="modal">
+                                        Login
+                                    </button>
+                                    <div class="modal fade" id="dialog" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title login">Sign In</h1>
+                                                <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                                    <span aria-hidden="true">&times;</span>
+                                                  </button>
+                    
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="Name">Username</label>
+                                                        <input type="email" class="form-control" id="Name"  >
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label for="Password">Password</label>
+                                                        <input type="password" class="form-control" id="Password">
+                                                      </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-outline-info login navbtn" type="button"> Login</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        
+</section>
+
+<section id="contact-banner">
+    <div class="container-fluid banner">
+    <!-- <img src="images/about1.png"> -->
+    </div>
+</section>
+
+<section id="contactinfo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 contact-text">
+                <p> For Any Inquiries, <br> Feel Free to Contact Us </p>
+                <form action="mailto:pearlpriyanka15@gmail.com" method="POST" enctype="text/plain" name="Form_Details">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First Name" name="first_name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last Name" name="last_name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="user@email.com" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Write your query</label>
+                        <textarea class="form-control" rows="3" placeholder="Query..." name="query"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="btn" value="send">Submit</button>
+                    </div>
+               </div>
+
+            <div class="col-sm-6 contactInfoImg">
+                <img class="infoimg2" src="images/contact1.png" height="450px" width="550px">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-produce">
+    <div class="container-fluid contacthead">
+        <h2>
+           Where To Find Our Produce
+        </h2>
+        <hr>
+    </div>
+        <div class="container-fluid contactimg">
+            <img src="images/contact3.png" width="1200px" height="200px">
+        </div>
+    
+</section>
+
+<section id="footer">
+    <div class="container-fluid">
+        <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
+        <span class="vl"></span>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <span class="vl"></span>
+        <a class="footer-link" href="https://www.instagram.com/">Instagram</a>
+        <p class="copyright"> © 2023 by Deerfield Farm. Proudly created by Pearl</p>
+    </div>
+</section>
+</body>
+</html>

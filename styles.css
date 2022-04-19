@@ -1,0 +1,256 @@
+ body{
+     overflow-x: hidden;
+ }
+
+ /*Navbar*/
+
+ .navbar{
+    padding: 40px 30px 30px 30px; 
+    background-color:#293E31;
+ }
+
+li.nav-item{
+        padding: 25px 120px;
+}
+    
+.nav-link{
+        font-family: 'Athiti', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1rem;
+        color:white;
+}
+
+.nav-link:hover{
+        color: #FE8340;
+}
+
+
+/*Carousel*/
+
+.carousel-content{
+    position:absolute;
+    bottom:28%;
+    left:20%;
+    z-index: 20;
+    color:white;
+}
+
+#header h1{
+    font-family: 'MuseoModerno', cursive;
+    font-size:700%;
+    letter-spacing: 2px;
+    font-weight:600;
+}
+
+#header p{
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.img1{
+    width:100%;
+    height:1000px;
+    padding-top: 3rem;
+}
+
+/* mid-section*/
+#mid{
+    width:100%;
+    height:600px;
+    background-color:#FCF9F4;
+    padding:100px;
+}
+
+ h2{
+    font-family: 'Athiti', sans-serif;
+    font-size: 1.2rem;
+    font-size: 250%;
+    font-weight: 700;
+}
+
+#mid p{
+    font-family: 'Athiti', sans-serif;
+    color:black;
+    font-weight:400;
+}
+
+hr{
+    width: 250px;
+    background-color: black;
+    margin-left:0;
+}
+
+/*Produce*/
+
+#produce{
+    width:100%;
+    background-color:#DACEC2;
+    height:700px;
+}
+
+.produceText{
+    padding:90px 300px 2px 300px;
+}
+
+
+.menu{
+    margin:20px 300px 10px 300px;
+    width:1000px;
+    height:800px;
+}
+
+.items{
+    margin:10px 10px;
+     width:300px; 
+     height:300px; 
+    } 
+
+
+/*Footer*/
+
+#footer{
+    background-color: #293E31;
+    padding:100px 30px 10px 30px;
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    font-size: 1.2rem;   
+    color:#FE8340;
+}
+
+.footer-link{
+    padding:10px 150px;
+    color:#FE8340;
+    font-size: 200%;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.vl {
+    border-left: 2px solid #FE8340;
+    height: 500px;
+  }
+
+  #footer p{
+    padding:100px 10px 0px 10px;
+    font-weight:400;
+  }
+
+  #footer a:hover{
+      color:white;
+  }
+
+
+/*About Us*/
+
+#about-banner .banner{
+    width:100%;
+    height: 500px;
+    background-image: url("images/about1.png");
+    background-size: cover;
+    background-repeat: no-repeat;     
+}
+
+#info{
+    width:100%;
+    height:600px;
+    background-color:#FCF9F4;
+}
+
+.infotext{
+    padding:80px 200px 20px 50px;
+}
+
+
+.infotext p{
+    font-family: 'Athiti', sans-serif;
+    color:black;
+    font-weight:400;
+}
+
+.contactInfoImg{
+    width:750px;
+    height:600px;
+    background-color: white;
+    text-align: center;
+}
+
+.aboutInfoImg{
+    width:750px;
+    height:600px;
+    background-color:#293E31;
+    text-align: center;
+}
+.infoimg1{
+    padding-top:100px;
+}
+.infoimg2{
+    padding-top:200px;
+} 
+
+#pictures{
+    background-color:#DACEC2;
+    padding:90px 300px;
+}
+
+/*Contact Us*/
+
+#contact-banner .banner{
+    width:100%;
+    height: 500px;
+    background-image: url("images/contact\ \(2\).png");
+    background-size: cover;
+    background-repeat: no-repeat;     
+}
+
+.contact-text{
+    background-color:#293E31 ;
+    color:#FE8340;
+    padding:100px;
+    font-weight: 600;
+}
+.contact-text p{
+    font-size: 200%;
+    letter-spacing: 0px;
+}
+.contact-text label{
+    font-family: 'Athiti', sans-serif;
+}
+.contact-text input{
+    border: 2px solid #FE8340;
+    padding-left: 5px;
+    font-family: 'Athiti', sans-serif;
+    border-radius: 0px;
+}
+.contact-text textarea{
+    border: 2px solid #FE8340;
+    padding-left: 5px;
+    font-family: 'Athiti', sans-serif;
+    border-radius: 0px;
+}
+
+#contact-produce{ 
+        width:100%;
+        background-color:#DACEC2;
+}
+
+.contacthead{
+    padding:90px 200px 10px 200px;
+}
+.contactimg{
+    padding:50px 100px 100px 200px;
+}
+
+/*Modal*/
+
+.navbtn{
+    background-color: #293E31;
+    color:white;
+    border-color: #293E31;
+}
+
+.login{
+    font-family:'Athiti', sans-serif ;
+}
